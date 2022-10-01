@@ -9,12 +9,12 @@
 const int ts = 32;
 const int MAP_HEIGHT = 32;
 const int MAP_WIDTH = 212;
-float offsetX = 0, offsetY = 0; //движение камеры
-int level = 1; //уровень камеры
-bool managment = true; //управление игроком
-bool cam = true; //управление камерой разрешает либо запрещает двигаться камере
-bool finish = false; // пройден ли финальный уровень
-bool win = false; //пройден ли уровень
+float offsetX = 0, offsetY = 0; //РґРІРёР¶РµРЅРёРµ РєР°РјРµСЂС‹
+int level = 1; //СѓСЂРѕРІРµРЅСЊ РєР°РјРµСЂС‹
+bool managment = true; //СѓРїСЂР°РІР»РµРЅРёРµ РёРіСЂРѕРєРѕРј
+bool cam = true; //СѓРїСЂР°РІР»РµРЅРёРµ РєР°РјРµСЂРѕР№ СЂР°Р·СЂРµС€Р°РµС‚ Р»РёР±Рѕ Р·Р°РїСЂРµС‰Р°РµС‚ РґРІРёРіР°С‚СЊСЃСЏ РєР°РјРµСЂРµ
+bool finish = false; // РїСЂРѕР№РґРµРЅ Р»Рё С„РёРЅР°Р»СЊРЅС‹Р№ СѓСЂРѕРІРµРЅСЊ
+bool win = false; //РїСЂРѕР№РґРµРЅ Р»Рё СѓСЂРѕРІРµРЅСЊ
 bool bonus = false;
 bool backgroundIsBlack = false;
 const int count = 15;
