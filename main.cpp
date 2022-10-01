@@ -371,41 +371,21 @@ public:
 	}
 
 	void Collision() {
-		
-			for (int i = rect.top / ts; i < (rect.top + rect.height) / ts; ++i) {
-				for (int j = rect.left / ts; j < (rect.left + rect.width) / ts; ++j) {
-					if (TileMap[i][j] == 'm' || TileMap[i][j] == 'n' || TileMap[i][j] == 'u'
-						|| TileMap[i][j] == 'v' || TileMap[i][j] == 'z' || TileMap[i][j] == 'f') {
-						if (dx > 0) {
-							rect.left = j * ts - rect.width;
-							dx *= -1;
-						}
-						else if (dx < 0) {
-							rect.left = j * ts + ts;
-							dx *= -1;
-						}
+		for (int i = rect.top / ts; i < (rect.top + rect.height) / ts; ++i) {
+			for (int j = rect.left / ts; j < (rect.left + rect.width) / ts; ++j) {
+				if (TileMap[i][j] == 'm' || TileMap[i][j] == 'n' || TileMap[i][j] == 'u'
+					|| TileMap[i][j] == 'v' || TileMap[i][j] == 'z' || TileMap[i][j] == 'f') {
+					if (dx > 0) {
+						rect.left = j * ts - rect.width;
+						dx *= -1;
+					}
+					else if (dx < 0) {
+						rect.left = j * ts + ts;
+						dx *= -1;
 					}
 				}
 			}
-		
-		/*else if (typeOfEnemy == 2) {
-			for (int i = rect.top / (ts + 14); i < (rect.top + rect.height) / (ts + 14); ++i) {
-				for (int j = rect.left / ts; j < (rect.left + rect.width) / ts; ++j) {
-					if (TileMap[i][j] == 'm' || TileMap[i][j] == 'n' || TileMap[i][j] == 'u'
-						|| TileMap[i][j] == 'v' || TileMap[i][j] == 'z' || TileMap[i][j] == 'f') {
-						if (dx > 0) {
-							rect.left = j * ts - rect.width;
-							dx *= -1;
-						}
-						else if (dx < 0) {
-							rect.left = j * ts + ts;
-							dx *= -1;
-						}
-					}
-				}
-			}
-
-		}*/
+		}
 	}
 };
 
