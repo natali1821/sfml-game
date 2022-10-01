@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Enemy">
+    <Position X="3.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAhAggoAAAAgAAAYYIAAAA5EAAAAiAAQQQAEEBAA=</HashCode>
+      <FileName>enemy.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="typeOfEnemy" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Menu">
+    <Position X="5.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wAAAAhkCRKEQTQAgAAGACAwAAACIICAICAAQIDEAKAA=</HashCode>
+      <FileName>menu.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Player">
+    <Position X="1.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACGAABAAwoAAQAoAAAcIICAAAJMEAQCgAAAQQREFhkA=</HashCode>
+      <FileName>player.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sound">
+    <Position X="7.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAACQABAAEIBwABAAAACAAAQgUBAAAAAQAAgAAACIIA=</HashCode>
+      <FileName>sound.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="enemy">
+    <Position X="3.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>global.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="forText">
+    <Position X="9.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAgAAEgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>global.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
